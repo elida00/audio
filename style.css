@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Arime", cursive;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: rgb(38, 0, 255);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span {
+    color: rgb(245, 3, 3);
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 25px;
+}
+nav ul li a {
+    color: rgb(38, 0, 255);
+    font-size: 25px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(238, 4, 4);
+    transition: 2s;
+    text-decoration: overline;
+}
+.btn{
+    background-color: rgb(231, 12, 12);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform.4s;
+
+}
+.btn:hover{
+    transform: scale(1.4) ;
+}
+hr {
+    border: 1px solid rgb(13, 13, 13);
+}
+.content {
+    top: 50%;
+    left: 8%;
+}
+h1 {
+    color: rgb(75, 13, 116);
+    margin: 10px 0px 10px;
+    font-size: 60px;
+    font-weight: 600;
+}
+h3{
+    color: rgb(75, 13, 116);
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+h4 {
+    color: rgb(75, 13, 116);
+    font-size: 25px;
+}
+.newlatter form input:first-child {
+    display: inline-block;
+    width: 50%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+
+}
+.newlatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: rgb(245, 11, 11);
+    color: white;
+    box-shadow: 0px 0px 5px rgb(255, 0, 166);
+    top: 6px;
+    left: 300px;
+}
+.newlatter form input:last-child :hover {
+    transform: scale(1.1);
+    transition: .1s;
+}
+hr {
+
+    border: 1px solid rgb(13, 13, 13);
+}
+.pik{
+    width: 250px;
+    border-radius: 20px;
+}
+.one{
+    color: rgb(233, 2, 2);
+    font-size: 30px;
+    font-weight: bolder;
+}
+.two{
+    margin-left: 50px;
+}
+.three{
+    margin-left: 10px;
+    color: black;
+}
+hr {
+    border: 1px solid rgb(0, 0, 0);
+}
+.four{
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    font-weight: bolder;
+}
+hr{
+    color: rgb(0, 0, 0);
+}
+.five{
+    color: rgb(17, 255, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    left: 60px;
+}
+.six{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform.4s;
+}
+hr{
+    border: 1px solid rgb(0, 0, 0);
+}
+.seven{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    left: 30px;
+    font-size: 20px;
+}
+.icons{
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    transition: half o,3s ease-in;
+
+}.ten{
+    color: rgb(123, 0, 255);
+    right: 40px;
+    font-weight: 30px;
+}
+
